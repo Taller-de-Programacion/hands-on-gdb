@@ -1,0 +1,10 @@
+*.o
+bin/*
+*.exe
+*.out
+*.a
+*.lib
+*.so
+.*.swp
+*.txt
+input*
