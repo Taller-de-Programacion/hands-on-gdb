@@ -123,7 +123,7 @@ void IntSet::clear() {
     count_ = 0;
 }
 
-size_t IntSet::count() const {
+uint32_t IntSet::count() const {
     return count_;
 }
 

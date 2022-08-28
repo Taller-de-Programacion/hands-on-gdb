@@ -1,7 +1,7 @@
 #ifndef INTSET_H_
 #define INTSET_H_
-
 #include <list>
+#include <cstdint>
 
 // Esta clase implementa la estructura set de integers: `IntSet`.
 //
@@ -46,7 +46,7 @@ class IntSet {
         node_t *root;
 
         // Cuantos elementos hay en el set
-        size_t count_;
+        uint32_t count_;
 
         // Buscamos un nodo dentro del árbol para el valor dato.
         //
@@ -84,7 +84,7 @@ class IntSet {
         void clear();
 
         // Retorna cuantos elementos hay en el set
-        size_t count() const;
+        uint32_t count() const;
 
         // Retorna si el el set esta vacío o no
         bool empty() const;
